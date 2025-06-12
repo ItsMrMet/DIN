@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <h2>Iniciar sesión</h2>
+    <form id="loginForm" class="needs-validation" novalidate>
+      <div class="mb-3">
+        <label for="usernameLogin" class="form-label">Nombre de Usuario</label>
+        <input type="text" class="form-control" id="usernameLogin" required>
+        <div class="invalid-feedback">Este campo es obligatorio.</div>
+      </div>
+      <div class="mb-3">
+        <label for="passwordLogin" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="passwordLogin" required>
+        <div class="invalid-feedback">Este campo es obligatorio.</div>
+      </div>
+      <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+    </form>
+    <button type="button" id="register-btn" class="btn btn-secondary">Registrarse</button>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
