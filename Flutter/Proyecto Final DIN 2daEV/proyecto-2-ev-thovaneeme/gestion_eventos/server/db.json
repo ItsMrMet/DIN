@@ -1,0 +1,49 @@
+{
+  "eventos": [
+    {
+      "id": "1",
+      "title": "Evento 1",
+      "description": "Descripcion del primer evento",
+      "date": "2025-02-10T00:00:00.000",
+      "price": 20,
+      "imagePath": null,
+      "isFavorite": true
+    },
+    {
+      "id": "2",
+      "title": "Evento 2",
+      "description": "Decsripcion del segundo evento",
+      "date": "2025-02-20T00:00:00.000",
+      "price": 1000,
+      "imagePath": null,
+      "isFavorite": false
+    },
+    {
+      "id": "2025-01-29 23:28:06.124",
+      "title": "dadsaswd",
+      "description": "asdasdas",
+      "date": "2025-01-31T00:00:00.000",
+      "price": 100,
+      "imagePath": null,
+      "isFavorite": true
+    },
+    {
+      "id": "2025-01-30 21:11:49.900",
+      "title": "Evento 3",
+      "description": "Evento 3 editado",
+      "date": "2025-01-31T00:00:00.000",
+      "price": 250,
+      "imagePath": null,
+      "isFavorite": true
+    },
+    {
+      "id": "2025-04-05 13:20:22.779",
+      "title": "bbq dag",
+      "description": "bbq dag lekker eten",
+      "date": "2025-04-06T00:00:00.000",
+      "price": 10,
+      "imagePath": null,
+      "isFavorite": false
+    }
+  ]
+}
